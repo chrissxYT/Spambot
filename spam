@@ -30,9 +30,11 @@ def spam(elements, num, pause):
             pyautogui.press("enter")
             sleep(pause)
 
-def random_spam(num, pause):
+def random_spam(num, pause, chars):
     for x in range(num + 1):
-        for e in get_message(randint(1, 20)):
+        m = get_message(randint(1, 20))
+        if not chars: m = [m]
+        for e in m:
             pyautogui.typewrite(e)
             pyautogui.press("enter")
             sleep(pause)
@@ -83,7 +85,7 @@ print("Sie haben 15 Sekunden zeit, den Chat auszuwählen...")
 sleep(15)
 
 # Spam
-if texttype in '2eE':
-    random_spam(anz, g)
+if texttype in '1vV':
+    random_spam(anz, g, spamtype in '2bB')
 else:
     spam([s] if spamtype in '1sS' else s, anz, g)
