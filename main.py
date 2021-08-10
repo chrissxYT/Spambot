@@ -106,7 +106,7 @@ if spamtype in '1sS':
             if zua == 1:
                 s = "Physik ist super"
             elif zua == 2:
-                s = "chrissx stinkt wie ein verrottender Schildkroeten-Kadaver"
+                s = "Pytob stinkt wie ein verrottender Schildkroeten-Kadaver"
             elif zua == 3:
                 s = "Allgemeine Relativitaetstheorie for the win"
             elif zua == 4:
@@ -136,13 +136,13 @@ if spamtype in '1sS':
             elif zua == 16:
                 s = "Visit GD Quant"
             elif zua == 17:
-                s = "chrissx stinkt wie ein verrottender Schildkroeten-Kadaver"
+                s = "Pytob stinkt wie ein verrottender Schildkroeten-Kadaver"
             elif zua == 18:
-                s = "chrissx stinkt wie ein verrottender Schildkroeten-Kadaver"
+                s = "Pytob stinkt wie ein verrottender Schildkroeten-Kadaver"
             elif zua == 19:
-                s = "chrissx stinkt wie ein verrottender Schildkroeten-Kadaver"
+                s = "Pytob stinkt wie ein verrottender Schildkroeten-Kadaver"
             else:
-                s = "chrissx stinkt wie ein verrottender Schildkroeten-Kadaver"
+                s = "Pytob stinkt wie ein verrottender Schildkroeten-Kadaver"
 
             n = [s]
 
