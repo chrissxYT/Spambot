@@ -1,29 +1,19 @@
 #!/usr/bin/env python3
 import pyautogui
 import time
-import random
+from random import seed, randint
 
-random.seed()
+seed()
 
-print("")
-print("")
-print("")
-print("Wollen sie den normalen Satz-Spambot(empfohlen), oder einen Buchstaben-Spambot")
-print("1 für Satz-Spambot und 2 für Buchstaben-Spambot")
+print('Satz (1) / Buchstaben (2)')
 
-typep = 0
-while typep == 0:
-    try:
-        type = int(input())
-        typep = typep + 1
-    except:
-        print("Muss eine ganze Zahl sein")
-        pass
+spamtype = input()[0]
 
-print("")
-print("")
+if spamtype not in '12sbSB':
+    print('Please enter a proper spam mode.')
+    exit(1)
 
-if type == 1:
+if spamtype in '1sS':
     print("Sie haben den Satz-Spambot gewählt")
     print("")
 
@@ -112,7 +102,7 @@ if type == 1:
         while x <= anz:
             x = x + 1
 
-            zua = random.randint(1, 20)
+            zua = randint(1, 20)
             if zua == 1:
                 s = "Physik ist super"
             elif zua == 2:
